@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A329F21DE468960025EAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A329F11DE468960025EAD7 /* main.m */; };
+		18A329F51DE468960025EAD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A329F41DE468960025EAD7 /* AppDelegate.m */; };
+		18A329FB1DE468960025EAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A329F91DE468960025EAD7 /* Main.storyboard */; };
+		18A329FD1DE468960025EAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A329FC1DE468960025EAD7 /* Assets.xcassets */; };
+		18A32A001DE468960025EAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A329FE1DE468960025EAD7 /* LaunchScreen.storyboard */; };
+		18A32A0D1DE46A100025EAD7 /* WZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32A0C1DE46A100025EAD7 /* WZMainViewController.m */; };
+		18A32A101DE46A250025EAD7 /* WZContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32A0F1DE46A250025EAD7 /* WZContentView.m */; };
+		18A32A131DE46D9A0025EAD7 /* WZImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A32A121DE46D9A0025EAD7 /* WZImage.m */; };
+		18A32A151DE474440025EAD7 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A32A141DE474440025EAD7 /* image2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18A329ED1DE468960025EAD7 /* WZTanMuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZTanMuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A329F11DE468960025EAD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A329F31DE468960025EAD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A329F41DE468960025EAD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A329FA1DE468960025EAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A329FC1DE468960025EAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A329FF1DE468960025EAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A32A011DE468960025EAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A32A0B1DE46A100025EAD7 /* WZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMainViewController.h; sourceTree = "<group>"; };
+		18A32A0C1DE46A100025EAD7 /* WZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMainViewController.m; sourceTree = "<group>"; };
+		18A32A0E1DE46A250025EAD7 /* WZContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZContentView.h; sourceTree = "<group>"; };
+		18A32A0F1DE46A250025EAD7 /* WZContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZContentView.m; sourceTree = "<group>"; };
+		18A32A111DE46D9A0025EAD7 /* WZImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZImage.h; sourceTree = "<group>"; };
+		18A32A121DE46D9A0025EAD7 /* WZImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZImage.m; sourceTree = "<group>"; };
+		18A32A141DE474440025EAD7 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A329EA1DE468960025EAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A329E41DE468960025EAD7 = {
+			isa = PBXGroup;
+			children = (
+				18A329EF1DE468960025EAD7 /* WZTanMuDemo */,
+				18A329EE1DE468960025EAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A329EE1DE468960025EAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A329ED1DE468960025EAD7 /* WZTanMuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A329EF1DE468960025EAD7 /* WZTanMuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18A329F31DE468960025EAD7 /* AppDelegate.h */,
+				18A329F41DE468960025EAD7 /* AppDelegate.m */,
+				18A32A071DE469E40025EAD7 /* Classes */,
+				18A329F91DE468960025EAD7 /* Main.storyboard */,
+				18A329FC1DE468960025EAD7 /* Assets.xcassets */,
+				18A32A141DE474440025EAD7 /* image2.png */,
+				18A329FE1DE468960025EAD7 /* LaunchScreen.storyboard */,
+				18A32A011DE468960025EAD7 /* Info.plist */,
+				18A329F01DE468960025EAD7 /* Supporting Files */,
+			);
+			path = WZTanMuDemo;
+			sourceTree = "<group>";
+		};
+		18A329F01DE468960025EAD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A329F11DE468960025EAD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A32A071DE469E40025EAD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18A32A081DE469E40025EAD7 /* Controller */,
+				18A32A091DE469E40025EAD7 /* Model */,
+				18A32A0A1DE469E40025EAD7 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18A32A081DE469E40025EAD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A32A0B1DE46A100025EAD7 /* WZMainViewController.h */,
+				18A32A0C1DE46A100025EAD7 /* WZMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18A32A091DE469E40025EAD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A32A111DE46D9A0025EAD7 /* WZImage.h */,
+				18A32A121DE46D9A0025EAD7 /* WZImage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18A32A0A1DE469E40025EAD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18A32A0E1DE46A250025EAD7 /* WZContentView.h */,
+				18A32A0F1DE46A250025EAD7 /* WZContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A329EC1DE468960025EAD7 /* WZTanMuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A32A041DE468960025EAD7 /* Build configuration list for PBXNativeTarget "WZTanMuDemo" */;
+			buildPhases = (
+				18A329E91DE468960025EAD7 /* Sources */,
+				18A329EA1DE468960025EAD7 /* Frameworks */,
+				18A329EB1DE468960025EAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZTanMuDemo;
+			productName = WZTanMuDemo;
+			productReference = 18A329ED1DE468960025EAD7 /* WZTanMuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A329E51DE468960025EAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZ;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = TuChuan;
+				TargetAttributes = {
+					18A329EC1DE468960025EAD7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18A329E81DE468960025EAD7 /* Build configuration list for PBXProject "WZTanMuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A329E41DE468960025EAD7;
+			productRefGroup = 18A329EE1DE468960025EAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A329EC1DE468960025EAD7 /* WZTanMuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A329EB1DE468960025EAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A32A001DE468960025EAD7 /* LaunchScreen.storyboard in Resources */,
+				18A329FD1DE468960025EAD7 /* Assets.xcassets in Resources */,
+				18A32A151DE474440025EAD7 /* image2.png in Resources */,
+				18A329FB1DE468960025EAD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A329E91DE468960025EAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A32A131DE46D9A0025EAD7 /* WZImage.m in Sources */,
+				18A329F51DE468960025EAD7 /* AppDelegate.m in Sources */,
+				18A32A101DE46A250025EAD7 /* WZContentView.m in Sources */,
+				18A32A0D1DE46A100025EAD7 /* WZMainViewController.m in Sources */,
+				18A329F21DE468960025EAD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18A329F91DE468960025EAD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A329FA1DE468960025EAD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A329FE1DE468960025EAD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A329FF1DE468960025EAD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A32A021DE468960025EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A32A031DE468960025EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A32A051DE468960025EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZTanMuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuchuan.WZTanMuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A32A061DE468960025EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZTanMuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuchuan.WZTanMuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A329E81DE468960025EAD7 /* Build configuration list for PBXProject "WZTanMuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A32A021DE468960025EAD7 /* Debug */,
+				18A32A031DE468960025EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A32A041DE468960025EAD7 /* Build configuration list for PBXNativeTarget "WZTanMuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A32A051DE468960025EAD7 /* Debug */,
+				18A32A061DE468960025EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A329E51DE468960025EAD7 /* Project object */;
+}
